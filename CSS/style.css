@@ -124,6 +124,10 @@ footer {
   text-align: center;
   margin: 10% 0% 0%;
 }
+footer a {
+    text-decoration: none;
+    color: var(--Grayish-Blue);
+}
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 768px) {
