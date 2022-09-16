@@ -25,6 +25,7 @@ function checkInput() {
   }
   if (emailValue === "") {
     setErrorFor(email, "Email cannot be blank");
+    emailError(email, 'email@example/com')
   } else {
     setCorrectFor(email);
   }
